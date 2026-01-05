@@ -225,7 +225,7 @@ function getNextFridayThe13th(date) {
     date.getDate() + 1
   );
 
-  while (true) {
+  for (;;) {
     const friday13th = new Date(
       currentDate.getFullYear(),
       currentDate.getMonth(),
